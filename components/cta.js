@@ -10,7 +10,7 @@ export default function Cta() {
             Ready to save time with Japeeti?
           </h2>
           <p className="mt-2 font-medium text-white text-opacity-90 lg:text-xl">
-            Start working with your AI assistant engineer today.
+            Start working with your AI software engineer today.
           </p>
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">

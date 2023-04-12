@@ -28,10 +28,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Japeeti - AI engineering assistant that never sleeps</title>
+        <title>Japeeti - AI software engineer that never sleeps</title>
         <meta
           name="description"
-          content="Japeeti is an AI engineering assistant that never sleeps, saving your team time by making PRs"
+          content="Japeeti is an AI software engineer that never sleeps, saving your team time by making PRs"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
