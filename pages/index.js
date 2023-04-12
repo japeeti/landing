@@ -28,17 +28,17 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Japeeti - AI engineering assistant that never sleeps</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Japeeti is an AI engineering assistant that never sleeps, saving your team time by making PRs"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Navbar />
       <Hero />
-      <SectionTitle
+      {/* <SectionTitle
         pretitle="Nextly Benefits"
         title=" Why should you use this landing page">
         Nextly is a free landing page & marketing website template for startups
@@ -54,22 +54,22 @@ export default function Home() {
         Analysts says a landing page with video has 3% more conversion rate. So,
         don't forget to add one. Just like this.
       </SectionTitle>
-      <Video />
+      <Video /> */}
       <SectionTitle
         pretitle="Testimonials"
-        title="Here's what our customers said">
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        title="Here's what our users said">
+        Japeeti is helping save teams time by automating simple pull requests. 
+        Now any team member can quickly make changes.
       </SectionTitle>
       <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+        Everything you wanted to know about Japeeti to get started 
+        on your time saving journey.
       </SectionTitle>
       <Faq />
       <Cta />
       <Footer />
-      <PopupWidget />
+      {/* <PopupWidget /> */}
     </>
   );
 }

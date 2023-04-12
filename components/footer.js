@@ -20,7 +20,7 @@ export default function Footer() {
             <div>
               {" "}
               <Link href="/">
-                <a className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+                <a className="flex items-center space-x-2 text-2xl font-medium text-pink-700 dark:text-gray-100">
                   <span>
                     <img
                       src="/img/logo.svg"
@@ -30,18 +30,17 @@ export default function Footer() {
                       className="w-8"
                     />
                   </span>
-                  <span>Nextly</span>
+                  <span>Japeeti</span>
                 </a>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website
-              template for startups and indie projects. Its built with
-              Next.js & TailwindCSS. And its completely open-source.
+              Japeeti is your AI assistant engineer that never sleeps, 
+              saving your team time by making simple pull requests. 
             </div>
 
-            <div className="mt-5">
+            {/* <div className="mt-5">
               <a
                 href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
                 target="_blank"
@@ -55,32 +54,32 @@ export default function Footer() {
                   height="44"
                 />
               </a>
-            </div>
-          </div>
+            </div> */}
+          </div> 
 
-          <div>
+          {/* <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
                 <Link key={index} href="/">
-                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-pink-500 focus:text-pink-500 focus:bg-pink-100 focus:outline-none dark:focus:bg-trueGray-700">
                     {item}
                   </a>
                 </Link>
               ))}
             </div>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
                 <Link key={index} href="/">
-                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">
+                  <a className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-pink-500 focus:text-pink-500 focus:bg-pink-100 focus:outline-none dark:focus:bg-trueGray-700">
                     {item}
                   </a>
                 </Link>
               ))}
             </div>
-          </div>
-          <div className="">
+          </div> */}
+          {/* <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
@@ -112,10 +111,10 @@ export default function Footer() {
                 <Linkedin />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
 
-        <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
+        {/* <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a
             href="https://web3templates.com/"
@@ -130,10 +129,10 @@ export default function Footer() {
             rel="noopener ">
             Glazestock
           </a>
-        </div>
+        </div> */}
       </Container>
       {/* Do not remove this */}
-      <Backlink />
+      {/* <Backlink /> */}
     </div>
   );
 }
