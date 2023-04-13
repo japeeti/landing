@@ -13,7 +13,7 @@ export default function Testimonials() {
         <div className="lg:col-span-2 xl:col-auto">
           <div className="flex flex-col justify-between w-full h-full bg-gray-100 px-14 rounded-2xl py-14 dark:bg-trueGray-800">
             <p className="text-2xl leading-normal ">
-              When can I <Mark>buy</Mark>
+              Can I <Mark>buy</Mark>
               Japeeti?
             </p>
 
