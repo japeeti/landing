@@ -17,11 +17,11 @@ export default function Hero() {
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="https://slack.com/"
+                href="https://forms.gle/zPFKM1iPWPVMw8bS6"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-pink-700 rounded-md ">
-                Download on Slack
+                Get Access
               </a>
               <a
                 href="mailto:japeetifromtahiti@gmail.com"
@@ -40,7 +40,7 @@ export default function Hero() {
                   <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                   <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />  
                 </svg>
-                <span>Get in touch</span>
+                <span>Contact us</span>
               </a>
             </div>
           </div>

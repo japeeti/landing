@@ -15,11 +15,11 @@ export default function Cta() {
         </div>
         <div className="flex-shrink-0 w-full text-center lg:w-auto">
           <a
-            href="https://slack.com"
+            href="https://forms.gle/zPFKM1iPWPVMw8bS6"
             target="_blank"
             rel="noopener"
             className="inline-block py-3 mx-auto text-lg font-medium text-center text-pink-700 bg-white rounded-md px-7 lg:px-10 lg:py-5 ">
-            Download on Slack
+            Get Access
           </a>
         </div>
       </div>
